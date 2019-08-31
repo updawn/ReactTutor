@@ -15,6 +15,13 @@ class App extends Component {
        <EventDemo
         myName = 'Jason'
        />
+       <div>
+           {this.props.simpleReducer.reduxName}
+       </div>
+      <div>
+          {this.props.simpleReducer.result}
+      </div>
+
       </div>
     );
   }
